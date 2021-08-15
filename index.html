@@ -167,7 +167,6 @@
     var wisher = document.getElementById("wisher");
     const queryString = window.location.search;
     const urlParams = new URLSearchParams(queryString);
-    window.alert(window.location.hostname);
     if (urlParams.has('n') && urlParams.get('n') != '') {
         wisher.innerHTML = urlParams.get('n')+" Wishes you";
     }
@@ -198,7 +197,8 @@
             window.alert("Please Enter a name");
         }
         else{
-            var link = "https://wa.me/?text=Special message from "+name+" 👉👉👉 savanpatel.tk?n=";
+            var url = window.location.hostname;
+            var link = "https://wa.me/?text=Special message from "+name+" 👉👉👉 "+url+"?n=";
             var flink = link+name;
             window.location.href = flink;
         }
