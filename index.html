@@ -199,6 +199,7 @@
         else{
             var url = window.location.hostname;
             var link = "https://wa.me/?text=Special message from "+name+" 👉👉👉 "+url+"?n=";
+            name = name.replace(" ","%20")
             var flink = link+name;
             window.location.href = flink;
         }
