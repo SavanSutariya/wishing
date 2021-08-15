@@ -1,0 +1,1 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f6a24505-16f3-46f5-aec5-e239a42009fd/deploy-status)](https://app.netlify.com/sites/wishingsite/deploys)
